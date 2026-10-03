@@ -1,0 +1,31 @@
+{
+  "name": "cl-ladder-monorepo",
+  "version": "1.0.0",
+  "description": "Cl-Ladder: Paper-strip-based Free Residual Chlorine (FRC) water test kit for Jal Jeevan Mission (JJM)",
+  "scripts": {
+    "start": "npm --prefix mobile run start",
+    "mobile": "npm --prefix mobile run start",
+    "mobile:web": "npm --prefix mobile run web",
+    "mobile:android": "npm --prefix mobile run android",
+    "dashboard": "npm --prefix dashboard run dev",
+    "test": "npm --prefix mobile test"
+  },
+  "keywords": [
+    "jal-jeevan-mission",
+    "water-quality",
+    "chlorine",
+    "expo",
+    "react-native"
+  ],
+  "author": "JJM Tech Team",
+  "license": "MIT",
+  "dependencies": {
+    "expo": "^57.0.26",
+    "react-dom": "19.2.3",
+    "react-native-web": "^0.21.2"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.4",
+    "typescript": "~6.0.3"
+  }
+}
